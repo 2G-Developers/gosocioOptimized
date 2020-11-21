@@ -74,19 +74,19 @@ const Contact = ({isgrey}) => {
                         <div className="contact__carousel">
                             <Slider {...settings}>
                                 <div className="contact__image">
-                                    <img src={skylon} alt="Raziya" className="img-fluid" />
+                                    <img src={skylon} alt="Raziya" className="img-fluid" style={{width: "210px", height: "101px"}} />
                                 </div>
                                 <div className="contact__image">
                                     <Img fixed={data.allFile.edges[1].node.childImageSharp.fixed} className="img-fluid small-margin" alt="ammus" />
                                 </div>
                                 <div className="contact__image">
-                                    <img src={arjeeSvg} alt="Arjee" className="img-fluid" style={{width: "215px"}}/>
+                                    <img src={arjeeSvg} alt="Arjee" className="img-fluid" style={{width: "210px", height: "101px"}}/>
                                 </div>
                                 <div className="contact__image">
                                     <Img fixed={data.allFile.edges[2].node.childImageSharp.fixed} className="img-fluid small-margin" alt="ammus" />
                                 </div>
                                 <div className="contact__image">
-                                    <img src={raziya} alt="Raziya" className="img-fluid" style={{width: "215px"}}/>
+                                    <img src={raziya} alt="Raziya" className="img-fluid" style={{width: "210px", height: "101px"}}/>
                                 </div>
                                 <div className="contact__image">
                                     <Img fixed={data.allFile.edges[3].node.childImageSharp.fixed} className="img-fluid small-margin" alt="ammus" />

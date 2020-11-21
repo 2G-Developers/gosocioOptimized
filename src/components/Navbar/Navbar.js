@@ -25,8 +25,8 @@ const Navbar = ({isSecondary = false,class1="navbar-list", class2="navbar-list",
     return (
         <div className="nav">
             <div className={navbar ? 'navbar active-nav': 'navbar'} style={{background: `${ navbar ? color : 'transparent'}`}}>
-                {isSecondary ? null : <Link to="/"><img className="logo" src={logo} alt="logo"/></Link> }
-                {isSecondary ? <Link to="/"><img className="logo" src={logo2} alt="logo"/></Link> : null }
+                {isSecondary ? null : <Link to="/"><img className="logo" src={logo} alt="logo" style={{width: "150px", height: "44.5px"}}/></Link> }
+                {isSecondary ? <Link to="/"><img className="logo" src={logo2} alt="logo" style={{width: "150px", height: "44.5px"}} /></Link> : null }
                 {/* eslint-disable-next-line */
                                     }<div className="navbar-hamburg" role="button" onClick={()=>setShownav(!showNav)} onKeyDown={()=>setShownav(!showNav)}>
                     <div className="navbar-hamburg-bar" style={{background: `${isSecondary ? '#fff': '#000'}`}}></div>

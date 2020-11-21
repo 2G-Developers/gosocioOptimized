@@ -30,146 +30,146 @@ const About = () => {
         query {
             sooja: file(relativePath: {eq: "sooja.png"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80 ) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               untold: file(relativePath: {eq: "untold.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               Skylon2: file(relativePath: {eq: "skylon-2.png"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               skylon: file(relativePath: {eq: "skylon.png"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               vr: file(relativePath: {eq: "vr.png"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               amaas: file(relativePath: {eq: "amaas.png"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               ammus: file(relativePath: {eq: "ammus.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               arjee: file(relativePath: {eq: "arjee.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               raziya: file(relativePath: {eq: "raziya.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               hair: file(relativePath: {eq: "hair.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               hair1: file(relativePath: {eq: "intro_the.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               hair2: file(relativePath: {eq: "sam.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               hair3: file(relativePath: {eq: "hair3.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               hairDiwaliA: file(relativePath: {eq: "thediwalia.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               hairDiwaliB: file(relativePath: {eq: "thediwalib.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               hairDiwaliC: file(relativePath: {eq: "thediwalic.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               couchy: file(relativePath: {eq: "couchy.png"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               couchyComfy: file(relativePath: {eq: "couchyComfy.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               couchyIndependence: file(relativePath: {eq: "couchyIndependence.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }
               couchyWebsite: file(relativePath: {eq: "couchyWebsite.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
               }eclectic: file(relativePath: {eq: "eclectic.jpg"}) {
                 childImageSharp {
-                      fluid(maxHeight: 470) {
+                      fluid(maxHeight: 470, quality: 80) {
                         ...GatsbyImageSharpFluid
                       }
                     }
