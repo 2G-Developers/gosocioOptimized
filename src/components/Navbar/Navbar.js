@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 
 import logo from '../../images/svg/logo.svg'
@@ -16,7 +16,11 @@ const Navbar = ({isSecondary = false,class1="navbar-list", class2="navbar-list",
         }
     }
 
-    window.addEventListener('scroll', changeBackground)
+    useEffect(() => {
+        window.addEventListener('scroll', changeBackground)
+
+    }, [])
+
 
     return (
         <div className="nav">
