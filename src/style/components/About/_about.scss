@@ -1,0 +1,106 @@
+.about {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    overflow-x: hidden;
+
+    &__heading {
+        margin-bottom: 3rem;
+
+        h3 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            @include respond(tab-port) { // width < 900?
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    &__wrapper {
+        max-height: 470px;
+        height: 100%;
+        // min-height: 0;
+        // height: 100%;
+
+        // @include respond(tab-port) {
+        //     height: unset;
+        // }
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 66.666667% 1fr;
+        grid-template-rows: 400px;
+        grid-column-gap: 1rem;
+        width: 100%;
+
+        &--secondary {
+            grid-template-columns: 1fr 66.666667%;
+        }
+    }
+
+    &__img {
+        background-size: cover;
+        height: 100%;
+        padding: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        @include respond(tab-port) {
+            padding: 20px;
+            padding-bottom: 0;
+        }
+
+        img {
+            width: 100%;
+            max-height: 100%;
+            height: 100%;
+            max-width: 100%;
+            // padding-top: 15px;
+        }
+    }
+
+    &__box {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__cta {
+        margin-top: 3rem;
+    }
+}
+
+
+// carousel
+.slick-slider {
+    height: 100%;
+}
+
+.slick-list {
+    height: 100%;
+}
+
+.slick-slide {
+    display: flex !important;
+}
+
+.slick-slide > div:first-child{
+    width: 100%;
+    height: 100%;
+}
+
+.slick-track {
+    display: flex !important;
+    height: 100%;
+}
+
+.order {
+    @include respond(phone) { // width < 900?
+        order: -1;
+    }
+}

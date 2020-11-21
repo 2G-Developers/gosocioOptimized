@@ -1,0 +1,42 @@
+.location {
+    background: #f4f4f4;
+    padding-bottom: 5rem;
+
+    &__details {
+        padding: 3rem 0;
+        background: #fff;
+        color: #696869;
+    }
+
+
+    &__link {
+        text-decoration: none;
+        color: #696869;
+
+        &:hover {
+            text-decoration: none;
+            color: #696869;
+        }
+    }
+
+    &--red {
+        background: #eb4d37;
+        margin: 0;
+        padding: 5rem 0 10rem 0;
+        color: #fff;
+
+        h2 {
+            margin-bottom: 0;
+            font-size: 2.8rem;
+            font-weight: 600;
+        }
+    }
+
+    &__cta {
+        margin-top: 2rem;
+    }
+
+    &__negative-margin {
+        margin-top: -5rem;
+    }
+}

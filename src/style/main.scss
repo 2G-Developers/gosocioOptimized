@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~aos/dist/aos.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+@import './base/base';
+
+@import './components/Button/button';
+@import './components/Carousel/carousel';
+@import './components/Footer/footer';
+@import './components/Navbar/navbar';
+@import './components/About/about';
+@import './components/Client/client';
+@import './components/Contact/contact';
+@import './components/Service/service';
+@import './components/Enquiry/enquiry';
+@import './components/Dropdown/dropdown';
+@import './components/Location/location';
+

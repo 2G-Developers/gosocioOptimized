@@ -1,0 +1,71 @@
+.hero {
+    position: relative;
+
+    // &__img {
+    //     height: 70vh;
+    //     background-position: center center;
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+
+    //     @include respond(tab-port) {
+    //         height: 50vh;
+    //     }
+    // }
+
+    &__caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        span {
+            color: #000;
+        }
+
+        h3 {
+            color: #fff;
+            font-size: 3.5rem;
+            margin-bottom: 0;
+
+            @include respond(tab-port) {
+                font-size: 2.5rem;
+            }
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.875rem;
+            margin-bottom: 0;
+            font-weight: 200;
+            @include respond(tab-port) {
+                font-size: 2rem;
+                // white-space: nowrap;
+            }
+        }
+    }
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(235, 77, 55, .5);
+}
+
+.mobile {
+    display: none;
+    width: 100%;
+    @include respond(phone) {
+        display: block;
+    }
+}
+
+.desktop {
+    display: block;
+    width: 100%;
+    @include respond(phone) {
+        display: none;
+    }
+}
